@@ -1,0 +1,145 @@
+.blog-banner {
+    padding: 20% 0px  !important;
+}
+
+img
+{
+    width:100%;
+}
+    
+.blog-post
+{
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+.blog-sec {
+    margin-block: 100px;
+  }
+
+  .blog-intro-txt {
+    display: flex;
+    flex-flow: column;
+    margin-block: 50px;
+  }
+
+  .blog-head-center{
+    display: flex;
+    justify-content: center;
+  }
+  .Lincode-heading-blog {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roobert;
+    line-height: 110%;
+    margin-block: 20px;
+    padding-inline: 20px;
+  }
+
+  .blog-main-sub-text{
+    display: flex;
+    padding-inline: 20px;
+    justify-content: center;
+  }
+
+  .blog-head-center{
+    display: flex;
+    justify-content: center;
+  }
+  .lincode-card-sec {
+    column-count: 3;
+    column-gap: 50px;
+  }
+  @media (max-width:1024px){
+    .lincode-card-sec {
+      column-count: 2;
+      column-gap: 50px;
+    }
+  }
+
+  @media (max-width:768px){
+    
+    .lincode-card-sec {
+      column-count: 1;
+      column-gap: 50px;
+    }
+  }
+
+  @media (max-width: 1025px) {
+    .lincode-card-sec{
+        margin-bottom: 4% !important;
+    }
+}
+
+
+
+.lincode-blogs-wrap{
+    height: 100% !important;
+}
+
+
+.lincode-cards-blog{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fafafa;
+    background-clip: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 35px 0px rgb(177 177 177 / 30%);
+    margin-bottom: 50px;
+  }
+
+  .Lincode-heading-blog {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roobert;
+    line-height: 110%;
+    margin-block: 20px;
+    padding-inline: 20px;
+  }
+
+  .lincode-blog-date{
+    color: #de0000;
+    font-family: aeonik;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-inline: 20px;
+  }
+
+  span.blog-sub-text {
+    padding-inline: 20px;
+      font-family: 'Aeonik';
+      font-size: 16px;
+      margin-bottom: 50px;
+  }
+  .txt-danger{
+    color: #de0000;
+  }
+  .rd-blog{
+    display: flex;
+    padding-inline: 20px;
+    justify-content: right;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  .rd-blog
+{
+    color: #de0000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
